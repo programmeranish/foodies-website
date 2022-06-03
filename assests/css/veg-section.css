@@ -1,0 +1,9 @@
+.veg__section .image-container img {
+  width: 445px;
+  height: 513px;
+  margin: 0px 48px;
+}
+.veg__section .image-container {
+  background-color: #f3fafb;
+  width: fit-content;
+}

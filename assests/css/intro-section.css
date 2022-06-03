@@ -81,6 +81,12 @@
   float: left;
 }
 
+.intro__picture .review-bar-rating {
+  position: absolute;
+  top: 294px;
+  left: -90px;
+}
+
 .intro__picture .review-bar-rating h5 {
   font-weight: 500;
   font-size: 15px;
@@ -98,4 +104,73 @@
   width: 15.23px;
   height: 14.58px;
   float: left;
+  margin-right: 5.77px;
+}
+.intro__picture .dotted__background {
+  width: 174px;
+  height: 174px;
+  position: absolute;
+  top: 477px;
+  right: -39px;
+}
+
+.intro__picture .dotted__background img {
+  width: 100%;
+}
+
+.logo__container {
+}
+.logos__container img {
+  width: 155.19px;
+  height: 35.84px;
+  margin-right: 40px;
+  float: left;
+  margin-top: 46px;
+}
+.logos__container img:last-child {
+  margin-right: 0;
+}
+.logos__container {
+}
+
+/* feature container section  */
+
+.features__container {
+  border: 1.5px solid #070707;
+  border-left: none;
+  border-right: none;
+  margin: 130.5px 0px;
+}
+.feature__container {
+  float: left;
+  width: calc(100% / 4 - 20px);
+  margin: 57.5px auto;
+
+  margin-right: 20px;
+}
+.feature__container:last-child {
+  margin-right: 0;
+}
+.feature__container img {
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin-right: 22px;
+}
+.feature__container h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1d1d1f;
+  margin-top: 13px;
+  margin-bottom: 7px;
+}
+.feature__container h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1d1d1f;
+  opacity: 0.75;
+}
+.feature__container .shipping-detail {
 }
