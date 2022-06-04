@@ -81,6 +81,9 @@
     text-align: center;
     white-space: nowrap;
   }
+  .footer-detail-container {
+    margin-left: 0px;
+  }
 }
 @media screen and (max-width: 646px) {
   .container {
@@ -145,6 +148,11 @@
     margin-left: 0px;
     width: 100%;
   }
+  .ingredients h2 {
+    font-size: 28px;
+    margin: 10px 0;
+    padding: 0;
+  }
 }
 @media screen and (max-width: 584px) {
   .intro__picture {
@@ -168,5 +176,12 @@
     float: none;
     margin: auto;
     text-align: center;
+  }
+  .center-div {
+    float: none;
+  }
+  .footer-detail-container {
+    float: none;
+    margin-left: 0;
   }
 }

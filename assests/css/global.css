@@ -63,3 +63,10 @@
 
   color: #1d1d1f;
 }
+
+a:hover {
+  opacity: 0.5;
+}
+.btn:hover {
+  opacity: 0.8;
+}
