@@ -18,3 +18,48 @@
   margin: auto;
   padding-left: 7px;
 }
+.btn {
+  padding: 24px 30px 25px 30.81px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.btn--primary {
+  background: #06c167;
+
+  color: #ffffff;
+  display: inline-block;
+}
+.btn--secondary {
+  background: #e6f9f0;
+  color: #06c167;
+  padding: 11px 7px 13px 14px;
+
+  display: inline-block;
+}
+.btn--secondary img {
+  margin-left: 8.78px;
+}
+.btn--primary img {
+  display: inline-block;
+  width: 22.38px;
+  height: 11px;
+  margin-left: 27.81px;
+}
+
+.section__info {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #1d1d1f;
+  margin-top: 78px;
+  margin-bottom: 20px;
+}
+.section__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 73px;
+
+  color: #1d1d1f;
+}

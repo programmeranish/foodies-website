@@ -34,7 +34,7 @@
   display: inline-block;
 }
 
-.intro__section .intro__container div img {
+.btn--primary img {
   display: inline-block;
   width: 22.38px;
   height: 11px;
@@ -95,12 +95,12 @@
   margin: 17px 15px 18px 19px;
   float: left;
 }
-.intro__picture .review-bar-rating .star-container {
+.intro__picture .review-bar-rating .star__container {
   margin: 19.71px 15.77px 18.71px 0px;
   float: right;
 }
 
-.intro__picture .review-bar-rating .star-container img {
+.intro__picture .review-bar-rating .star__container img {
   width: 15.23px;
   height: 14.58px;
   float: left;

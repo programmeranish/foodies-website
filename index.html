@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,9 @@
     <link rel="stylesheet" href="./assests/css/reset.css">
     <link rel="stylesheet" href="./assests/css/global.css">
     <link rel="stylesheet" href="./assests/css/header.css">
-    <link rel="stylesheet" href="./assests/css/intro-section.css">
     <link rel="stylesheet" href="./assests/css/veg-section.css">
+    <link rel="stylesheet" href="./assests/css/intro-section.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
 </head>
 
 <body>
@@ -19,20 +21,20 @@
         <header>
             <div class="container">
                 <nav class="clearfix">
-<div class="nav-container clearfix">
+                    <div class="nav-container clearfix">
 
-                    <div class="nav__logo">
-                        <img src="./assests/images/Logo.png" alt="official logo">
+                        <div class="nav__logo">
+                            <img src="./assests/images/Logo.png" alt="official logo">
+                        </div>
+                        <ul class="nav__links clearfix">
+                            <li><a class="active " href="index.html">Home</a></li>
+                            <li><a href="index.html">About Us</a></li>
+                            <li><a href="index.html">Service Us</a></li>
+                            <li><a href="index.html">Our Company</a></li>
+                            <li><a href="index.html">Pages</a></li>
+                        </ul>
                     </div>
-                    <ul class="nav__links clearfix">
-                        <li><a class="active " href="index.html">Home</a></li>
-                        <li><a href="index.html">About Us</a></li>
-                        <li><a href="index.html">Service Us</a></li>
-                        <li><a href="index.html">Our Company</a></li>
-                        <li><a href="index.html">Pages</a></li>
-                    </ul>
-            </div>
-            </nav>
+                </nav>
 
         </header>
         <div class="container">
@@ -59,7 +61,7 @@
                         </div>
                         <div class="review-bar review-bar-rating clearfix">
                             <h5>5.0 Ratings</h5>
-                            <div class="star-container">
+                            <div class="star__container">
 
                                 <img src="./assests/images/star.png" alt="profile">
                                 <img src="./assests/images/star.png" alt="profile">
@@ -67,6 +69,8 @@
                                 <img src="./assests/images/star.png" alt="profile">
                                 <img src="./assests/images/star.png" alt="profile">
                             </div>
+
+
                         </div>
                         <div class="dotted__background">
                             <img src="./assests/images/Polcadot.png" alt="">
@@ -80,51 +84,308 @@
     </div>
     <div class="container">
 
-    <div class="logos__container clearfix">
-        <img src="./assests/images/logoipsum.jpg" alt="">
-        <img src="./assests/images/logoipsum2.png" alt="">
-        <img src="./assests/images/logoipsum3.png" alt="">
-    </div>
+        <div class="logos__container clearfix">
+            <img src="./assests/images/logoipsum.jpg" alt="">
+            <img src="./assests/images/logoipsum2.png" alt="">
+            <img src="./assests/images/logoipsum3.png" alt="">
+        </div>
 
-    <div class="features__container clearfix">
-        <div class="feature__container clearfix">
-            <img src="./assests/images/quickPayment.png" alt="">
-            <div class="shipping-detail">
+        <!-- <div class="features__container clearfix">
+            <div class="feature__container clearfix">
+                <img src="./assests/images/quickPayment.png" alt="">
+                <div class="shipping-detail">
+
+                    <h5>
+                        Free Shipping
+                    </h5>
+                    <h6>Orders over $140</h6>
+                </div>
+            </div>
+            <div class="feature__container clearfix">
+                <img src="./assests/images/freeShipping.png" alt="">
+                <h5>
+                    Quick Payment </h5>
+                <h6>100% secure payment</h6>
+            </div>
+            <div class="feature__container clearfix">
+                <img src="./assests/images/specialPromo.png" alt="">
+                <h5>
+                    Special Promo
+                </h5>
+                <h6>Get special promo</h6>
+            </div>
+            <div class="feature__container clearfix">
+                <img src="./assests/images/support.png" alt="">
 
                 <h5>
-                    Free Shipping
+                    24/7 Support
                 </h5>
-                <h6>Orders over $140</h6>
+                <h6>Ready support</h6>
             </div>
         </div>
-        <div class="feature__container clearfix">
-            <img src="./assests/images/freeShipping.png" alt="">
-            <h5>
-                Quick Payment            </h5>
-            <h6>100% secure payment</h6>
-        </div>
-        <div class="feature__container clearfix">
-            <img src="./assests/images/specialPromo.png" alt="">
-            <h5>
-                Special Promo
-            </h5>
-            <h6>Get special promo</h6>
-        </div>
-        <div class="feature__container clearfix">
-            <img src="./assests/images/support.png" alt="">
+        <section class="veg__section clearfix">
+            <div class="image-container">
+                <img src="./assests/images/veg-section.png" alt="veg section">
+            </div>
+            <div class="veg__detail__container">
+                <h6>Our Benefit</h6>
+                <h2>The More Healthy<br> Food The Better</h2>
+                <ul>
+                    <li class="clearfix"><img src="./assests/images/checked.png" alt="checked">
+                        <p>Be Alive With Veggie Food</p>
+                    </li>
+                    <li class="clearfix"><img src="./assests/images/checked.png" alt="checked">
+                        <p>It's The Place To Be.</p>
+                    </li>
+                    <li class="clearfix"><img src="./assests/images/checked.png" alt="checked">
+                        <p>Nonstop Veggie Food</p>
+                    </li>
+                    <li class="clearfix"><img src="./assests/images/checked.png" alt="checked">
+                        <p>The Best Silk Dish In Town</p>
+                    </li>
+                    <li class="clearfix"><img src="./assests/images/checked.png" alt="checked">
+                        <p>Truffles, Egg & Pumpkin Spice</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="star__section clearfix">
+            <div class="star__section__detail clearfix">
 
-            <h5>
-                24/7 Support
-            </h5>
-            <h6>Ready support</h6>
-        </div>
+                <h6 class="section__info">Our Stars</h6>
+                <h2 class="section__title">Veggie Food Goes<br> On And Always On</h2>
+
+                <div class="star__feedback">
+                    <h3>1,500</h3>
+                    <p>Sold Product</p>
+
+                </div>
+                <div class="star__feedback">
+                    <h3>500</h3>
+                    <p>Possitive Feedback</p>
+
+                </div>
+                <div class="star__feedback">
+                    <h3>400</h3>
+                    <p>Official Store</p>
+
+                </div>
+                <div class="btn btn--primary">Get Special Promo<img src="./assests/images/right-arrow.png" alt="">
+                </div>
+            </div>
+            <div class="star__section__image">
+                <img src="./assests/images/greenlemon.png" alt="green lemon">
+            </div>
+        </section>
+        <section class="variety__section">
+            <div class="section__info">
+                Our Features
+            </div>
+            <div class="section__title">
+                Variety Of Foods
+            </div>
+            <div class="variety__container clearfix">
+                <div class="variety">
+                    <img src="./assests/images/variety1.png" alt="">
+                </div>
+                <div class="variety">
+                    <h4>Veggies Are Forever</h4>
+                    <h6>We offer the following services</h6>
+                    <div class="btn btn--secondary">Discover Now <img src="./assests/images/right-arrow-dark.png"
+                            alt="right arrow">
+                    </div>
+                </div>
+                <div class="variety">
+                    <img src="./assests/images/variety2.png" alt="">
+                </div>
+                <div class="variety">
+                    <h4>Good For Your Skin</h4>
+                    <h6>We offer the following services</h6>
+                    <div class="btn btn--secondary">Discover Now <img src="./assests/images/right-arrow-dark.png"
+                            alt="right arrow">
+                    </div>
+                </div>
+
+                <div class="variety">
+                    <h4>Veggie Food Groove</h4>
+                    <h6>We offer the following services</h6>
+                    <div class="btn btn--secondary">Discover Now <img src="./assests/images/right-arrow-dark.png"
+                            alt="right arrow">
+                    </div>
+                </div>
+                <div class="variety">
+                    <img src="./assests/images/variety3.png" alt="">
+                </div>
+
+                <div class="variety">
+                    <h4>That Comes Close</h4>
+                    <h6>We offer the following services</h6>
+                    <div class="btn btn--secondary">Discover Now <img src="./assests/images/right-arrow-dark.png"
+                            alt="right arrow">
+                    </div>
+
+                </div>
+                <div class="variety">
+                    <img src="./assests/images/variety4.png" alt="">
+                </div>
+            </div>
+
+        </section>
+        <section class="popular__section">
+            <div class="section__info">Our Product</div>
+            <div class="section__title">
+                Most Popular Product
+            </div>
+            <div class="product__container clearfix">
+                <div class="product">
+                    <img src="./assests/images/fruit1.png" alt="">
+                    <div class="star__container clearfix">
+
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                    </div>
+                    <h5>Summer Veganie</h5>
+                    <div class="price__container">
+
+                        <h4 class="price--slashed">$25</h4>
+                        <h4 class="price">$29</h4>
+                    </div>
+                    <div class="btn btn--secondary">Buy Now <img src="./assests/images/right-arrow-dark.png"
+                            alt="right arrow">
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assests/images/fruit2.png" alt="">
+                    <div class="star__container clearfix">
+
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                    </div>
+                    <h5>Greanie Seafood</h5>
+                    <div class="price__container">
+
+                        <h4 class="price--slashed">$25</h4>
+                        <h4 class="price">$29</h4>
+                    </div>
+                    <div class="btn btn--secondary">Buy Now <img src="./assests/images/right-arrow-dark.png"
+                            alt="right arrow">
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assests/images/fruit3.png" alt="">
+                    <div class="star__container clearfix">
+
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                    </div>
+                    <h5>Fresh Vegetable</h5>
+                    <div class="price__container">
+
+                        <h4 class="price--slashed">$25</h4>
+                        <h4 class="price">$29</h4>
+                    </div>
+                    <div class="btn btn--secondary">Buy Now <img src="./assests/images/right-arrow-dark.png"
+                            alt="right arrow">
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assests/images/fruit4.png" alt="">
+                    <div class="star__container clearfix">
+
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                        <img src="./assests/images/star.png" alt="profile">
+                    </div>
+                    <h5>Fresh Meatyus</h5>
+                    <div class="price__container">
+
+                        <h4 class="price--slashed">$25</h4>
+                        <h4 class="price">$29</h4>
+                    </div>
+                    <div class="btn btn--secondary">Buy Now <img src="./assests/images/right-arrow-dark.png"
+                            alt="right arrow">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ingredients clearfix">
+            <h2 class="section__title section__title--secondary">
+                Veggie Foods? Ingredients <br> You Want To Try
+            </h2>
+            <div class="btn btn--primary">Get Started <img src="./assests/images/right-arrow.png" alt="">
+            </div>
+        </section> -->
     </div>
-    <section class="veg__section">
-        <div class="image-container">
-            <img src="./assests/images/veg-section.png" alt="veg section">
+    <!-- <footer>
+        <div class="container clearfix">
+
+            <div class="footer__logo__container">
+                <div class="footer-container">
+
+                    <img src="./assests/images/Logo.png" alt="logo">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                    <div class="social__links">
+                        <img src="./assests/images/facebook-f-brands (1).png" alt="">
+                        <img src="./assests/images/instagram-brands (1).png" alt="">
+                        <img src="./assests/images/twitter-brands (1).png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-detail-container clearfix">
+
+                <div class="footer-container footer__detail">
+                    <h2>
+                        About Us
+                    </h2>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Service Us</li>
+                        <li>Contact</li>
+                        <li>Company</li>
+                    </ul>
+
+                </div>
+                <div class="footer-container footer__detail">
+                    <h2>
+                        Company
+                    </h2>
+                    <ul>
+                        <li>Partnership</li>
+                        <li>Terms of Use</li>
+                        <li>Privacy</li>
+                        <li>Sitemap</li>
+                    </ul>
+
+                </div>
+                <div class="footer-container subscribe-container footer__detail">
+                    <h2>
+                        Get in touch
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <form>
+                        <input type="text" placeholder="Email">
+                        <button class="btn btn--primary">Subscribe</button>
+                    </form>
+
+                </div>
+            </div>
         </div>
-    </section>
-</div>
+        <div class="copyright__section">
+            Copyright &#169; 2021 Foodies
+        </div>
+    </footer> -->
 
 
 </body>
