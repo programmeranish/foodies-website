@@ -1,6 +1,7 @@
 .veg__section .image-container img {
-  width: 445px;
-  height: 513px;
+  width: 100%;
+  max-width: 445px;
+  max-height: 513px;
   margin: 0px 48px;
 }
 .veg__section .image-container {
@@ -83,8 +84,9 @@
   width: fit-content;
 }
 .star__section__image img {
-  width: 445px;
-  height: 513px;
+  width: 100%;
+  max-width: 445px;
+  max-height: 513px;
   margin-bottom: 95px;
   margin-left: 96px;
 }
@@ -99,16 +101,18 @@
 }
 .variety__container {
   margin-top: 70px;
+  width: 100%;
 }
 .variety {
   text-align: left;
-  width: calc(100% / 4);
-
-  background-color: #f3fcf7;
+  width: 100%;
   float: left;
+  width: calc(100% / 4);
+  background-color: #f3fcf7;
   border: 1.5px solid #06c167;
-  height: 292.5px;
-  width: 290.5px;
+  min-width: 290px;
+  max-height: 292.5px;
+  max-width: 291.5px;
 }
 .variety > img {
   width: 100%;
@@ -147,9 +151,11 @@
 }
 
 .product__container .product {
+  width: calc(100% / 4);
   float: left;
   text-align: center;
   max-width: 270px;
+  min-width: 270px;
   border: 2px solid rgba(118, 118, 117, 0.25);
   margin-right: 32px;
 }
@@ -343,4 +349,9 @@ footer .footer-container {
   text-align: center;
   margin-top: 90px;
   margin-bottom: 38px;
+}
+
+.variety__section {
+  width: fit-content;
+  margin: auto;
 }

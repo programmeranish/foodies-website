@@ -20,7 +20,7 @@
   /* or 23px */
 
   color: rgba(29, 29, 31, 0.75);
-  width: 55ch;
+  width: 75%;
   margin-bottom: 30px;
 }
 .intro__section .btn--primary {
@@ -72,13 +72,13 @@
   float: left;
 }
 .intro__picture .review-bar-profile h5 {
-  margin: 17px 16px 18px 13px;
+  margin: 17px 16px 18px 0px;
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
 
   color: #1d1d1f;
-  float: left;
+  float: right;
 }
 
 .intro__picture .review-bar-rating {
@@ -92,7 +92,7 @@
   font-size: 15px;
   line-height: 18px;
   color: #1d1d1f;
-  margin: 17px 15px 18px 19px;
+  margin: 17px 0px 18px 19px;
   float: left;
 }
 .intro__picture .review-bar-rating .star__container {
@@ -144,6 +144,7 @@
 .feature__container {
   float: left;
   width: calc(100% / 4 - 20px);
+  min-width: 251px;
   margin: 57.5px auto;
 
   margin-right: 20px;
