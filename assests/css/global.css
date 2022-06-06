@@ -71,6 +71,33 @@ a:hover {
 .btn:hover {
   opacity: 0.8;
 }
+.review-bar-rating {
+  animation-name: message-animate;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+
+.review-bar-profile {
+  animation-name: message-animate;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+.btn {
+  cursor: pointer;
+}
+.product:hover {
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
 @keyframes menu-slide {
   0% {
     right: -500px;
@@ -86,5 +113,14 @@ a:hover {
   }
   100% {
     top: 21px;
+  }
+}
+
+@keyframes message-animate {
+  0% {
+    transform: translate(0px, 10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
   }
 }
