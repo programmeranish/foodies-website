@@ -107,6 +107,11 @@
     height: fit-content;
     background-color: white;
     border-radius: 25px;
+    animation-name: menu-slide;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
   }
   .nav__links li {
     float: none;
@@ -183,5 +188,48 @@
   .footer-detail-container {
     float: none;
     margin-left: 0;
+  }
+  .footer__lists {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+/* for footer */
+
+@media screen and (max-width: 1277px) {
+  .footer-detail-container {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 648px) {
+  .footer__logo__container {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-detail-container img {
+    width: 100%;
+  }
+  .footer-detail-container {
+    display: block;
+    float: none;
+  }
+  .footer__detail {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+  .subscribe-container {
+    width: 100%;
+    display: block;
+    margin: auto;
+    float: none;
   }
 }

@@ -17,6 +17,7 @@
   width: 82.22%;
   margin: auto;
   padding-left: 7px;
+  max-width: 1440px;
 }
 .btn {
   padding: 24px 30px 25px 30.81px;
@@ -69,4 +70,21 @@ a:hover {
 }
 .btn:hover {
   opacity: 0.8;
+}
+@keyframes menu-slide {
+  0% {
+    right: -500px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes bouncer {
+  0% {
+    top: 15px;
+  }
+  100% {
+    top: 21px;
+  }
 }

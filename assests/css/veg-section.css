@@ -290,9 +290,9 @@ footer .footer-container {
   margin-bottom: 41px;
 }
 .footer__detail {
-  width: calc(100% / 2);
-  max-width: 107px;
+  max-width: 150px;
   margin-right: 40px;
+  height: 239px;
 }
 .footer__detail ul li {
   font-weight: 400;
@@ -308,11 +308,12 @@ footer .footer-container {
 }
 .subscribe-container {
   max-width: 338px;
-  float: right;
+  float: left;
   margin-right: 0px;
 }
 .subscribe-container input {
-  width: 205px;
+  width: 100%;
+  max-width: 205px;
   height: 50px;
   background: #f0f1ec;
 
@@ -328,10 +329,13 @@ footer .footer-container {
   margin-right: 15px;
   border: 0px;
   padding: 17px auto 16px 24px;
+  float: left;
 }
 .subscribe-container .btn {
   padding: 16px 22px 17px 28px;
   border: 0px;
+  margin-top: 37px;
+  float: left;
 }
 
 .copyright__section {
@@ -359,4 +363,44 @@ footer .footer-container {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+}
+.footer-container {
+  width: 100%;
+}
+
+.footer__logo__container {
+  width: 30%;
+}
+.footer-detail-container {
+  width: 70%;
+  float: right;
+}
+.footer__detail {
+  width: 20%;
+  float: left;
+}
+.subscribe-container {
+  display: inline-block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: 0px;
+  padding: 0px;
+  max-width: 338px;
+}
+.subscribe-container input {
+  padding: 17px 24px;
+}
+.subscribe-container h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1d1d1f;
+}
+.subscribe-container p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #1d1d1f;
+  margin-top: 41px;
 }
